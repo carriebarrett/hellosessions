@@ -1,7 +1,7 @@
 {
-  "name": "project",
+  "name": "hello sessions",
   "version": "1.0.0",
-  "description": "Korok puzzle website",
+  "description": "test",
   "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
