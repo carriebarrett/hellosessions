@@ -10,10 +10,7 @@ var session = require('express-session');
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(session({
-	secret:'DefinitelySecret'
-	resave: true,
-    saveUninitialized: true
-}));
+	secret:'DefinitelySecret'}));
 
 app.engine('handlebars', handlebars.engine);
 app.set('view engine', 'handlebars');
