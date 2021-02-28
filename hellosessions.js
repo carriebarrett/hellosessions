@@ -11,8 +11,6 @@ app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(session({
 	secret:'DefinitelySecret'
-	resave: true,
-    saveUninitialized: true
 }));
 
 app.engine('handlebars', handlebars.engine);
