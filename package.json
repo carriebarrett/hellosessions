@@ -13,6 +13,9 @@
     "express": "^4.13.2",
     "express-handlebars": "^2.0.1",
     "express-session": "^1.11.3",
+	"graceful-fs": "^4.2.6",
+	"handlebars": "^4.7.7",
     "mysql": "^2.8.0"
+	"sessions": "0.0.2-7"
   }
 }
